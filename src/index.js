@@ -55,12 +55,10 @@ function onCountry(countries) {
             </div>`
       }).join('');
       refs.countryInfo.innerHTML = markup;  
-    }
-    
-
-    function onError() { 
-    Notiflix.Notify.failure('Oops, there is no country with that name.'); 
+    } 
 }
+function onError() { 
+    Notiflix.Notify.failure('Oops, there is no country with that name.');
 }
 
 
